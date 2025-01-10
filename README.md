@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm [Ville Schulz]!
+# 👋 Hi there, I'm Ville Schulz!
 
 I am a second-year **Information and Communications Technology Engineering** student at **Metropolia University of Applied Sciences**, based in Finland. I’m passionate about **software development**, **web technologies**, and continuously learning new skills to solve real-world problems.
 
