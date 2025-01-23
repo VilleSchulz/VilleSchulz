@@ -45,7 +45,7 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 ## 🛠️ **Projects I'm Proud Of**
 
 ### 📋 **FixHub (Groupwork)**
-- Description: a platform for user get broken items fixed by other users (fixers)
+- Description: a platform for user to get broken items fixed by other users (fixers)
 - Technologies used: Node.js, React, MongoDB, Tailwind CSS
 - Repository Link: https://github.com/mirapery/FixHub/tree/main
 
