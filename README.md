@@ -9,6 +9,7 @@ I am a second-year **Information and Communications Technology Engineering major
 ### 🌐 Frontend
 - HTML, CSS, JavaScript, Tailwind
 - React.js
+- Figma (UX/UI-Design) 
 
 ### ⚙️ Backend
 - Python, Java
