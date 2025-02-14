@@ -17,14 +17,19 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            .github/contributions/github-snake.svg
-            .github/contributions/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake-artifact
+          path: dist
 
       - name: Push generated files
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -B output
-          git add .github/contributions
+          git add dist
           git commit -m "Generate snake animation" || exit 0
-          git push origin output --force
+          git push
