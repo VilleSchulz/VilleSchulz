@@ -31,12 +31,16 @@ jobs:
 
       - name: Push generated files
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}  # Ensure GH_PAT is set up in secrets
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -B output  # Create a new branch, if it doesn’t exist
+          
+          # Ensure the dist directory exists and contains the expected files
+          ls -l dist  # List files in dist directory to check if the correct files are there
+      
+          git checkout -B output  # Create a new branch if it doesn't exist
           git add dist
           git commit -m "Generate snake animation" || exit 0  # Avoid failure if nothing changed
-          git push origin output --force  # Be cautious with force-push
+          git push origin output --force  # Push to the output branch
 
