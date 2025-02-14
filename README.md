@@ -63,5 +63,11 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VilleSchulz&show_icons=true&theme=radical)
 
 ---
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VilleSchulz&layout=compact&theme=tokyonight)
+
+
+![Snake animation](https://github.com/VilleSchulz/VilleSchulz/blob/output/github-contribution-grid-snake.svg)
+
+---
 
 ### 🚧 **Let's Build Something Awesome Together!**
