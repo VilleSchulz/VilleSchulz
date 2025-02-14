@@ -2,14 +2,17 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Päivittää kerran päivässä
-  workflow_dispatch:  # Voit käynnistää manuaalisesti GitHubin Actionsista
+    - cron: "0 0 * * *"  # Runs once a day at midnight UTC
+  workflow_dispatch:  # You can also trigger manually from GitHub Actions UI
+
+permissions:
+  contents: write  # Required to push files back to the repository
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repositorio
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Generate snake.svg
@@ -18,22 +21,22 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?palette=github-dark  # Ensure dark palette is working
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: snake-artifact
-          path: dist
+          path: dist  # Artifacts uploaded for reference or debugging
 
-    - name: Push generated files
-  env:
-    GH_PAT: ${{ secrets.GH_PAT }}
-  run: |
-    git config --global user.name 'github-actions[bot]'
-    git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-    git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-    git checkout -B output
-    git add .github/contributions
-    git commit -m "Generate snake animation" || exit 0
-    git push origin output --force
+      - name: Push generated files
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # Ensure GH_PAT is set up in secrets
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -B output  # Create a new branch, if it doesn’t exist
+          git add dist
+          git commit -m "Generate snake animation" || exit 0  # Avoid failure if nothing changed
+          git push origin output --force  # Be cautious with force-push
+
