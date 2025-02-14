@@ -66,7 +66,7 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VilleSchulz&layout=compact&theme=tokyonight)
 
 
-![Snake animation](https://github.com/VilleSchulz/VilleSchulz/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/VilleSchulz/VilleSchulz/blob/output/dist/github-contribution-grid-snake.svg)
 
 ---
 
