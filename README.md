@@ -3,6 +3,8 @@
 I am a second-year **Information and Communications Technology Engineering majoring in Software Development**  student at **Metropolia University of Applied Sciences**, based in Finland. I’m passionate about **software development**, **web technologies**, and continuously learning new skills to solve real-world problems.
 
 ---
+![Snake animation](https://github.com/VilleSchulz/VilleSchulz/blob/output/dist/github-contribution-grid-snake-dark.svg)
+---
 
 ## 🚀 **Skills & Technologies**
 
@@ -66,7 +68,6 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VilleSchulz&layout=compact&theme=tokyonight)
 
 
-![Snake animation](https://github.com/VilleSchulz/VilleSchulz/blob/output/dist/github-contribution-grid-snake.svg)
 
 ---
 
