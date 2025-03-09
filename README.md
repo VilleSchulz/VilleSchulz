@@ -58,7 +58,7 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 - Repository Link: https://github.com/teemvat/VerkkokuppaGui
 
 ---
-## 📈 **Code Time since Feb 7 2025**
+## 📈 **Code Time since Feb 7 2025 ( started counting)**
 [![wakatime](https://wakatime.com/badge/user/191c70f9-fba4-427d-a9f5-820e34c6cd43.svg?style=for-the-badge)](https://wakatime.com/@191c70f9-fba4-427d-a9f5-820e34c6cd43)
 ## 📈 **GitHub Stats**
 
