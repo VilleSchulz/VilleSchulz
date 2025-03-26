@@ -28,8 +28,6 @@ I am a second-year **Information and Communications Technology Engineering major
 ## 📚 **What I'm Currently Learning**
 - Advanced **Java** development
 - **React.js** projects
-- Exploring TryHackMe
-
 ---
 
 ## 🎸 **Fun Fact**
