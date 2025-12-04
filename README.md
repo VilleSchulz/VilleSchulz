@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Ville Schulz!
 
-I am a third-year **Information and Communications Technology Engineering majoring in Software Development**  student at **Metropolia University of Applied Sciences**, based in Finland. I’m passionate about **software development**, **web technologies**, and continuously learning new skills to solve real-world problems.
+I am a third-year **Information and Communications Technology Engineering majoring in Software Development**  student at **Metropolia University of Applied Sciences**, based in Finland. I’m passionate about **software development**, **web technologies**, **IOT**, **Machine Learning** and continuously learning new skills to solve real-world problems. Currently working in Code Partners Nordic Oy
 
 ---
 ![Snake animation](https://github.com/VilleSchulz/VilleSchulz/blob/output/dist/github-contribution-grid-snake-dark.svg)
@@ -27,6 +27,7 @@ I am a third-year **Information and Communications Technology Engineering majori
 
 ## 📚 **What I'm Currently Learning**
 - Machine Learning
+- IOT esp32 midi-controller project
 ---
 
 ## 🎸 **Fun Fact**
