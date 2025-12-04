@@ -26,8 +26,7 @@ I am a third-year **Information and Communications Technology Engineering majori
 ---
 
 ## 📚 **What I'm Currently Learning**
-- Advanced **Java** development
-- **React.js** projects
+- Machine Learning
 ---
 
 ## 🎸 **Fun Fact**
