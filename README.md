@@ -9,12 +9,12 @@ I am a third-year **Information and Communications Technology Engineering majori
 ## 🚀 **Skills & Technologies**
 
 ### 🌐 Frontend
-- HTML, CSS, JavaScript, Tailwind
+- HTML, CSS, JavaScript,TypeScript, Tailwind
 - React.js
 - Figma (UX/UI-Design) 
 
 ### ⚙️ Backend
-- Python, Java
+- Python, Java, Rust
 - SQL, Node.js
 
 ### 🧰 Tools & Platforms
@@ -27,6 +27,7 @@ I am a third-year **Information and Communications Technology Engineering majori
 
 ## 📚 **What I'm Currently Learning**
 - Machine Learning
+- Rust
 - IOT esp32 midi-controller project
 ---
 
