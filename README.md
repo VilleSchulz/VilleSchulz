@@ -51,7 +51,7 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 - Technologies used: Node.js, React, MongoDB, Tailwind CSS
 - Repository Link: https://github.com/mirapery/FixHub/tree/main
 
-### 📋 **Note Wizard- note taking ap (Groupwork)**
+### 📋 **Note Wizard- note taking app (Groupwork)**
 - Description: Java app for user to add notes with pictures and add alarms for them
 - Technologies used: Java, Scene builder, CSS, SQL, Jakarta,
 - Repository Link: https://github.com/marikraa/Ohjelmistotuotantoprojekti
