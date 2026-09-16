@@ -56,6 +56,11 @@ Check us out here: https://open.spotify.com/artist/1wejXtQ9dBciV8dPtdQd3M?si=RDX
 - Technologies used: Java, Scene builder, CSS, SQL, Jakarta,
 - Repository Link: https://github.com/marikraa/Ohjelmistotuotantoprojekti
 
+### 📋 *Chord Generator AI- AI Chord progression tool (Groupwork)**
+- Description: LLM based musical chord generator for beginners and more advanced players.
+- Technologies used: Python, Jupyter Notebook, LLM, Keras/Tensorflow
+- Repository Link: https://github.com/VilleSchulz/Chord-Generator-LLM
+
 ---
 ## 📈 **GitHub Stats**
 
